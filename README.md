@@ -1,9 +1,8 @@
-https://github.com/user-attachments/assets/4d124ed2-a05e-4ee9-bd12-ed46aafba56a
 
 # Spotify Playlist Generator with Gemini Pro
 
 ## Demo
-Link: https://onionsp-developer-salary-predictor-app-mdmqve.streamlit.app/
+https://github.com/user-attachments/assets/4d124ed2-a05e-4ee9-bd12-ed46aafba56a
 
 ## Description
 
