@@ -1,11 +1,9 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 import google.generativeai as genai
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-load_dotenv()
 
 # Setup Gemini API
 GOOGLE_API_KEY = os.getenv("GEMINI_PRO_API_KEY")
