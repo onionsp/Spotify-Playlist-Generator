@@ -6,14 +6,14 @@ from spotipy.oauth2 import SpotifyOAuth
 
 
 # Setup Gemini API
-GOOGLE_API_KEY = os.getenv("GEMINI_PRO_API_KEY")
+GOOGLE_API_KEY = st.secrets["GEMINI_PRO_API_KEY"]
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 
 # Setup Spotify API
-SPOTIPY_CLIENT_ID = os.getenv("SPOTIFY_ID")
-SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIFY_SECRET")
-SPOTIPY_REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
+SPOTIPY_CLIENT_ID = st.secrets["SPOTIFY_ID"]
+SPOTIPY_CLIENT_SECRET = st.secrets["SPOTIFY_SECRET"]
+SPOTIPY_REDIRECT_URI = st.secrets["SPOTIFY_REDIRECT_URI"]
 SPOTIPY_SCOPE = "playlist-modify-private"
 
 # Spotify Authentication
